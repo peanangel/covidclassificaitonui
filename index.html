@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+<head>
+    <style>
+        img {
+            border-radius: 8px;
+            height: 300px;
+            width: 270px;
+        }
+        #grad1 {
+            height: 200px;
+            background-image: linear-gradient(to right, rgba(112, 210, 255, 0), rgb(232, 232, 232),rgb(174, 174, 174) );
+        }
+    </style>
+</head>
+
+<body class="p3" id="grad1">
+    <form >
+
+        <!-- head -->
+        <div class="container-fluid">
+            <div style="height: 10px;" ></div>
+                <div class="item" >
+                    <h2 class="h2">Covid Classification</h2>
+                    <img src="image/covid.png" alt="" style="margin-left: -570px; width: 60px; height: 60px; ">
+                </div>
+        </div>
+        
+        <!-- card -->
+        <div style="height: 50px;"></div>
+        <div  class="div" class="row">
+            <div id="preview" class="divimg" class="col"></div>
+            <div  class="col" style="margin-left: 30px;">
+                <button class="button1" > 
+                    <input name="Browe" type="file" accept="image/*"onchange="handleClick(this)">
+                </button>
+                <!-- <button class="button2" accept="image/*"onchange="handleClick(this)" > 
+                    <p style="font-weight: 1px;">Classification</p>
+                </button> -->
+                
+                <div class="card" >
+                    <div style="height: 35px;"></div>
+                    <div class="pCard" ></div>
+                    <!-- <div class="pCard">Normal</div> -->
+                    <!-- <div class="pCard">Viral Pneumonia</div> -->
+                </div>
+                <button class="button2" >
+                    <p style="font-weight: 1px;">Clear</p>
+                </button>
+            </div>
+        </div>
+
+    </form>
+</body>
+</html>

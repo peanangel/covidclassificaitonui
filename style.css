@@ -1,0 +1,75 @@
+.div {
+    background-color: lightgray;
+    width: 550px;
+    height: 300px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+   margin: auto;
+   display: grid;
+    grid-template-columns: auto auto ;
+}
+
+.divimg {
+    background-color: rgb(111, 111, 111);
+    width: 270px;
+    height: 299px;
+    padding: 5px;
+    border-radius: 8px;
+
+}
+.p3 {
+    font-family: "Lucida Console", "Courier New", monospace;
+
+}
+.button1 {
+    font-size: 24px; 
+    margin-top: 10px;
+    border-radius: 8px;
+    width: 240px;
+    height: 46px;
+    border-color: lightgray;
+}
+.button2 {
+    width: 240px;
+    height: 46px;
+    font-size: 12px; 
+    margin-top: 10px;
+    border-radius: 8px;
+    border-color: lightgray;
+}
+/* .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+} */
+
+.card{
+    background-color: rgb(29, 29, 29); 
+    margin-top: 40px;
+    width: 240px; 
+    height: 120px;
+    border-radius: 8px;
+}
+
+.pCard{
+    font-size: 35px;
+    color: white;
+    text-align: center;
+}
+
+.container-fluid{
+    background-color: rgb(61, 61, 61);
+    height: 90px;
+    
+}
+.h2{
+    color: white;
+    margin-left: 10px;
+}
+.item{
+    margin: auto;
+    display: grid;
+     grid-template-columns: auto auto ;
+}
